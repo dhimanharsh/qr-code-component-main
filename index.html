@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+    body{
+  background-color: hsl(212, 45%, 89%);
+}
+    #conatiner {
+      height: 600px;
+      width: 80%;
+      background: hsl(212, 45%, 89%);
+      margin-left: 12%;
+      border-radius: 12px;
+      margin-top: 100px;
+      
+
+    }
+
+    #conatiner li {
+      height:500px;
+      list-style: none;
+      width: 25%;
+      position: relative;
+      left: 35%;
+      top: 40px;
+      border-radius: 12px;
+      background: white;
+
+    }
+
+    #conatiner img {
+      position: absolute;
+      height: 280px;
+      top: 10px;
+      border-radius: 12px;
+      left: 5%;
+      width: 90%;
+    }
+
+    #conatiner h1 {
+      position: absolute;
+      top: 60%;
+      color: hsl(0, 0%, 0%);
+      font-size: 22px;
+      font-family: "Outfit", sans-serif;
+     font-weight: 700;
+      left: 9%;
+    }
+
+     section {
+      position: absolute;
+      top: 75%;
+      font-size: 15px;
+      font-weight: 600;
+      color: rgba(128, 128, 128, 0.644);
+     left: 9%;
+     line-height: 7px;
+      font-family: "Outfit", sans-serif;
+    }
+
+
+    @media (min-width:375px) and (max-width: 500px) {
+body{
+  background-color: hsl(212, 45%, 89%);
+}
+      #conatiner {
+      height: 600px;
+      width: 80%;
+      background: hsl(212, 45%, 89%);
+      margin-left: 10%;
+      border-radius: 12px;
+      margin-top: 100px;
+      align-items: center;
+    
+    }
+    #conatiner li {
+      height:500px;
+      list-style: none;
+      width: 95%;
+      
+      position: relative;
+      left: 2.5%;
+      top: 40px;
+      border-radius: 12px;
+      background: white;
+
+    }
+    #conatiner h1 {
+      position: absolute;
+      top: 60%;
+      color: hsl(0, 0%, 0%);
+      font-size: 22px;
+      font-family: "Outfit", sans-serif;
+     font-weight: 700;
+      text-align: center;}
+
+    #conatiner img {
+      position: absolute;
+      height: 280px;
+      top: 10px;
+      border-radius: 12px;
+     
+      width: 90%;
+    }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="conatiner">
+    <li>
+      <img src="./images/image-qr-code.png" alt="code-component-">
+      <br>
+       
+        <h1 style="text-align: center;">Improve your front-end<br> skills by building projects</h1>
+
+      <section>
+        <center>
+        <p>Scan the QR code to visit Frontend</p>
+        <p>Mentor and take your coding skills to </p>
+        <p> the next level</p></center>
+      </section>
+      </p>
+    </li>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Harsh</a>.
+  </div>
+</body>
+
+</html>
